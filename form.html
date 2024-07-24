@@ -1,0 +1,171 @@
+<!-- Form Page -->
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BetterBuy</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee"/>
+				
+  </head>
+  <body>
+
+		<!-- Header -->
+		<div class= "header">
+			<a class= "link" href= "./index.html"> <h1>BetterBuy</h1> </a>
+		</div>
+
+		<div class= "tabs">
+			<a href="./index.html"> <button class="tablink" id="defaultOpen"> Home </button></a>
+			<a href = "./store.html"> <button class="tablink">Shop Conscious</button></a>
+			<a href = "./form.html"> <button class="tablink">Quiz</button></a>
+		</div>
+
+		<div class= "div-form-title">
+			<h1> QUIZ </h1>
+		</div>	
+
+		<div class= "style-compile">
+			
+			<form>
+				<fieldset>
+
+					<legend>WHERE SHOULD YOU SUSTAINABLY SHOP?</legend>
+
+					<p class= "question-title"> <label> Enter your Name</label> </p>
+						<input type="text" id="myText" class="name-field" name="fieldName" value="">
+					<br><br>
+
+					<section id="radio1" class="question1">
+						<p class= "question-title">Age</p>
+
+						<label><input type="radio" name="choice0" class="question1" value="0">14-17</label>
+						<label><input type="radio" name="choice0" class="question1" value="1">18-21</label>
+						<label><input type="radio" name="choice0" class="question1" value="2">22-25</label>
+						<label><input type="radio" name="choice0" class="question1" value="3">26-29</label>
+						<label><input type="radio" name="choice0" class="question1" value="4">30-35</label>
+						<label><input type="radio" name="choice0" class="question1" value="5">Other</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<section id="radio2" class="question2">
+						<p class= "question-title">Gender</p>
+
+						<label><input type="radio" name="choice1" class="question2" value="0">Female</label>
+						<label><input type="radio" name="choice1" class="question2" value="1">Male</label>
+						<label><input type="radio" name="choice1" class="question2" value="2">Non-Binary</label>
+						<label><input type="radio" name="choice1" class="question2" value="3">Gender-Fluid</label>
+						<label><input type="radio" name="choice1" class="question2" value="4">Prefer Not to Say</label>
+						<label><input type="radio" name="choice1" class="question2" value="5">Other</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<section id="radio3" class="question3">
+						<p class= "question-title"> Question 1) 
+						<br>
+						What is your preferred everyday style? <span class="choice_error">Please select a choice.*</span></p>
+
+						<label><input type="radio" name="choice2" class="question3" value="0">Streetwear </label>
+						<label><input type="radio" name="choice2" class="question3" value="1">Soho </label>
+						<label><input type="radio" name="choice2" class="question3" value="2">Trendy</label>
+						<label><input type="radio" name="choice2" class="question3" value="3">Vintage</label>
+						<label><input type="radio" name="choice2" class="question3" value="4">Indie</label>
+						<label><input type="radio" name="choice2" class="question3" value="5">Cottage Core</label>
+						<label><input type="radio" name="choice2" class="question3" value="6">Ethnic</label>
+						<label><input type="radio" name="choice2" class="question3" value="7">Y2K</label>
+						<label><input type="radio" name="choice2" class="question3" value="8">Alternative</label>
+						<label><input type="radio" name="choice2" class="question3" value="9">SportsWear</label>
+						<label><input type="radio" name="choice2" class="question3" value="10">LoungeWear</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<section id="radio4" class="question4">
+						<p class= "question-title"> Question 2) 
+						<br>
+						What is one item of clothing you always need in your closet? <span class="choice_error">Please select a choice.*</span></p>
+
+						<label><input type="radio" name="choice3" class="question4" value="0">Oversized Hoodie</label>
+						<label><input type="radio" name="choice3" class="question4" value="1">Basic Black Crop Top</label>
+						<label><input type="radio" name="choice3" class="question4" value="2">Baggy Jeans</label>
+						<label><input type="radio" name="choice3" class="question4" value="3">Fitted Blazer</label>
+						<label><input type="radio" name="choice3" class="question4" value="4">Fun Dress</label>
+						<label><input type="radio" name="choice3" class="question4" value="5">Running Shorts</label>
+						<label><input type="radio" name="choice3" class="question4" value="6">Swimsuit</label>
+						<label><input type="radio" name="choice3" class="question4" value="7">Statement Piece</label>
+						<label><input type="radio" name="choice3" class="question4" value="8">Other</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<section id="radio5" class="question5">
+						<p class= "question-title"> Question 3) 
+						<br>
+						What is your preferred color palette? <span class="choice_error">Please select a choice.*</span></p>
+
+						<label><input type="radio" name="choice4" class="question5" value="0">Neutral</label>
+						<label><input type="radio" name="choice4" class="question5" value="1">Bold</label>
+						<label><input type="radio" name="choice4" class="question5" value="2">Minimalist</label>
+						<label><input type="radio" name="choice4" class="question5" value="3">Pastel</label>
+						<label><input type="radio" name="choice4" class="question5" value="4">Modern</label>
+						<label><input type="radio" name="choice4" class="question5" value="5">Earth Tones</label>
+						<label><input type="radio" name="choice4" class="question5" value="6">Other</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<section id="radio6" class="question6">
+						<p class= "question-title"> Question 4) 
+						<br>
+						What is your price range? <span class="choice_error">Please select a choice.*</span></p>
+
+						<label><input type="radio" name="choice5" class="question6" value="0">$</label>
+						<label><input type="radio" name="choice5" class="question6" value="1">$$</label>
+						<label><input type="radio" name="choice5" class="question6" value="2">$$$</label>
+						<label><input type="radio" name="choice5" class="question6" value="3">$$$$</label>
+						<label><input type="radio" name="choice5" class="question6" value="4">$$$$$</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<section id="radio7" class="question7">
+						<p class= "question-title"> Question 5) 
+						<br>
+						What is your size? <span class="choice_error">Please select a choice.*</span></p>
+
+						<label><input type="radio" name="choice6" class="question7" value="0">XSS</label>
+						<label><input type="radio" name="choice6" class="question7" value="1">XS</label>
+						<label><input type="radio" name="choice6" class="question7" value="2">S</label>
+						<label><input type="radio" name="choice6" class="question7" value="3">M</label>
+						<label><input type="radio" name="choice6" class="question7" value="5">L</label>
+						<label><input type="radio" name="choice6" class="question7" value="6">XL</label>
+						<label><input type="radio" name="choice6" class="question7" value="8">3XL</label>
+						<label><input type="radio" name="choice6" class="question7" value="9">Other</label>
+						<span id="flag0"></span>
+					</section>
+					<br>
+
+					<br>
+					<input type="submit" class="submit-form-button" value="Submit" />
+					<br><br>
+				
+				</fieldset>
+			</form>
+		
+		</div>
+
+		<script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script language="JavaScript" type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>

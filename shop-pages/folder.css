@@ -1,0 +1,163 @@
+body {
+	height: 100%;
+	width: 100%;
+  background-color:#ECEBE2;
+	font-family: "Copperplate", Patua-one;
+	margin: 0px;
+  padding: 0px;
+  color: #223745;
+}
+
+.header {
+	margin: 0px;
+  padding: 0px;
+	height: 80px;
+	background-color:#223745;
+	display: flex;
+	justify-content: center;
+  text-decoration-line: none;
+}
+
+h1 {
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	text-decoration-line: none;
+  font-family: "Bungee";
+
+}
+
+h2 {
+	color: #223745;
+	font-size: 31px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+.link{
+	color: #ECEBE2;
+	text-decoration-line: none;
+}
+
+
+.tablink {
+	/* position: relative; */
+  background-color: #95A8AC;
+  color: #223745;
+	text-align: center;
+  float: left;
+  border-left: 0.1px solid #223745;
+	border-top: 0.1px solid #223745;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 14px;
+	font-family: "Copperplate", fantasy;
+  font-size: 18px;
+  width: 33.33333%;
+}
+
+.tablink:hover {
+  background-color: #223745;
+	color: #ECEBE2;
+	border-top: 0.1px solid white;
+	font-family: "Copperplate", fantasy;
+}
+
+/* Store Pages */
+.store-description{
+	text-decoration-line: none;
+  text-align: center;
+	color: #223745;
+	/* padding-top: 40px;
+	margin-top: 40px; */
+}
+
+.store-content {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/* Images */
+.store-images{
+	display: flex;
+	justify-content: center;
+}
+
+.img {
+	justify-content: space-evenly;
+	margin: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* border:3px solid #223745; */
+}
+
+.img:hover {
+	justify-content: space-evenly;
+	margin: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* border:3px solid #223745; */
+	cursor: pointer;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+.submit-form-button {
+	font-family: fantasy;
+	font-size: 18px;
+	color:#223745;
+	background-color: #95A8AC;
+	padding-top: 8px;
+  border: 2px solid #223745;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.submit-form-button:hover {
+	background-color: #223745;
+  color: #ECEBE2;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.back-to-shop {
+	background-color: transparent;
+	font-family: fantasy;
+	color: #223745;
+	text-decoration-line: underline;
+	text-decoration-color: #223745;
+	border: none;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: none;
+	margin-bottom: none;
+	padding-top: 5px;
+}
+
+.back-to-shop:hover {
+	background-color: #95A8AC;
+	font-family: fantasy;
+	text-decoration-color: #223745;
+	cursor: pointer;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: none;
+	margin-bottom: none;
+	padding-top: 5px;
+}
